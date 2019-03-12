@@ -6,3 +6,12 @@
     width: 20%;
     min-height: 1500px;
   }
+
+  .container {  
+    margin: 0 auto;
+  }
+  .item {   
+    margin: 0 auto;
+    height: 300px;  
+    width: 300px;
+  }
