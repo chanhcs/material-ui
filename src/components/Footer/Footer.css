@@ -1,6 +1,7 @@
 .footer {
   font-style: italic;
-  background-image: url(background.jpg); 
+  color: white;
+  background-color: rgb(54, 54, 226); 
   background-size: 100%;
   position: relative;
   bottom: 4px;

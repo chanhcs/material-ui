@@ -7,7 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import header from './header.jpg'
+import header from './header.jpg';
+import ListButton from './ListButton';
 
 const styles = {
   root: {
@@ -32,14 +33,7 @@ function Header(props) {
             <MenuIcon />
           </IconButton>
           <Button color="inherit">Minh Chánh</Button>
-          <a class="fb" target="Blank" href="https://www.facebook.com/pmchanhpk" tabindex="0">
-            <i class="fa fa-facebook-official" style={{ fontSize: '30px', color: 'white' }}></i>
-          </a>
-
-          <a class="github" target="Blank" href="https://github.com/chanhcs" tabindex="0" style={{position:'relative', left:'10px'}}>
-            <i class="fa fa-github" style={{ fontSize: '30px', color: 'white'}}></i>
-          </a>
-
+          
          
 
 
@@ -49,15 +43,26 @@ function Header(props) {
 
           </Typography>
           <Button color="inherit">Giới thiệu bản thân </Button>
-          <Button color="inherit">
-            <a target="Blank" href="https://face-detection-pmc.herokuapp.com" tabindex="0"  
-            style={{color:'white', textDecoration: 'none'}}> Sản Phẩm </a>
-          </Button>
+         
+         <ListButton/>
+
+          
+          
           <Button color="inherit">Liên hệ</Button>
+         
+          <a class="fb" target="Blank" href="https://www.facebook.com/pmchanhpk" tabindex="0">
+            <i class="fa fa-facebook-official" style={{ fontSize: '30px', color: 'white' }}></i>
+          </a>
+
+          <a class="github" target="Blank" href="https://github.com/chanhcs" tabindex="0" style={{position:'relative', left:'10px'}}>
+            <i class="fa fa-github" style={{ fontSize: '30px', color: 'white'}}></i>
+          </a>
+
         </Toolbar>
       </AppBar>
 
       <img style={{ width: '100%', height: '550px' }} alt='header' src={header} />
+      
     </div>
   );
 }
