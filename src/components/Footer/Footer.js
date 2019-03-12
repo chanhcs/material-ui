@@ -9,8 +9,9 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-              <p style={{position: 'relative', top:'25px', fontSize:'20px'}}> Keep your eyes on the stars and your feet on the
-            ground</p>
+              <p style={{position: 'relative', top:'25px', fontSize:'20px'}}> 
+              To the world you may be one person, but to one person you may be the world
+            </p>
             </div>
 
         );
