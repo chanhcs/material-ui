@@ -1,0 +1,9 @@
+.section {
+    position: relative;
+    bottom: 4px;
+    background-image: url(background.jpg);
+    background-size: 300%;
+    float: right;
+    width: 80%;
+    min-height: 1500px;
+  }

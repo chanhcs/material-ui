@@ -1,0 +1,8 @@
+.aside {
+    position: relative;
+    bottom: 4px;
+    background-image: url(background.jpg);    
+    float: left;
+    width: 20%;
+    min-height: 1500px;
+  }
