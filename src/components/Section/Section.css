@@ -1,10 +1,6 @@
 .section {
-    position: relative;
-    bottom: 4px;
-    background:rgb(255, 210, 237) ;
-    background-size: 1000px;
-    
-    float: right;
-    width: 80%;
-    min-height: 1500px;
+    background:rgb(243, 243, 245); 
+    width: calc(100% - 300px);
+    height: 1500px;
+    margin-left: 300px;
   }

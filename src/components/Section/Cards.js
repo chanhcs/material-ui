@@ -16,11 +16,12 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import hon from './hon.jpg';
+
 
 const styles = theme => ({
     card: {
         maxWidth: 400,
+        
     },
     media: {
         height: 0,
@@ -70,9 +71,9 @@ class Cards extends React.Component {
                     title="Kí ức hôn"
                     subheader="March 11, 2019"
                 />
-                <CardMedia
+                <CardMedia  
                     className={classes.media}
-                    image="http://www.hungryforchange.tv/images/articles/kissing-winter-sweaters.jpg"
+                    image="http://www.hungryforchange.tv/images/articles/kissing-winter-sweaters.jpg" 
 
                 />
                 <CardContent>
@@ -112,11 +113,7 @@ class Cards extends React.Component {
                                 "Nếu người ta từ chối thì sao?"
                                 "Thì muốn đào ngay một cái hố mà rúc đầu xuống. Bởi thế người lớn mới hay mò vào chỗ kín đáo để tỏ tình."
                                 "Đối diện người ấy, tim đập thình thịch, mồ hôi rịn đầy, làm sao bày tỏ mà không lắp bắp?"
-                                "Hôn, nhằm môi mà hôn. Kẻ bị cưỡng hôn tự khắc sẽ hiểu, trừ khi óc bã đậu."
-                                "Hôn..." – giọng cậu trai thoảng nhẹ như gió may.
-                                Cái nhìn của Trí vô định rơi xuống sân trường ngợp người. Bảo Lan nhìn anh bạn thân,
-                                 mắt ánh nét cười lém lỉnh, gò má căng ra vì máu dồn lên ửng hồng. Bờ môi cô khẽ run, nơm nớp lo anh sẽ bất thình lình quay sang hôn mình giữa thanh thiên bạch nhật.
-                                 Hai ngày sau.Chuông reo tan học chưa hết vang vọng...
+                                "Hôn, nhằm môi mà hôn.
 
 
                  </p>

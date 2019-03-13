@@ -1,12 +1,8 @@
 .footer {
   font-style: italic;
   color: white;
-  background-color: rgb(54, 54, 226); 
-  background-size: 100%;
-  position: relative;
-  bottom: 4px;
+  background: rgb(54, 54, 226); 
   width: 100%;
-  min-height: 100px;
-  text-align: center;
-  clear: left;
+  height: 100px;
+  text-align: center;  
 }
