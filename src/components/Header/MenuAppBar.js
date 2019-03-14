@@ -41,11 +41,11 @@ function MenuAppBar(props) {
 
           
          
-          <a class="fb" target="Blank" href="https://www.facebook.com/pmchanhpk" tabindex="0">
+          <a class="fb" target="Blank" href="https://www.facebook.com/pmchanhpk" tabIndex="0">
             <i class="fa fa-facebook-official" style={{ fontSize: '30px', color: 'white' }}></i>
           </a>
 
-          <a class="github" target="Blank" href="https://github.com/chanhcs" tabindex="0" style={{position:'relative', left:'10px'}}>
+          <a class="github" target="Blank" href="https://github.com/chanhcs" tabIndex="0" style={{position:'relative', left:'10px'}}>
             <i class="fa fa-github" style={{ fontSize: '30px', color: 'white'}}></i>
           </a>
 

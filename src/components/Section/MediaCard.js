@@ -9,6 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+
 const styles = {
   card: {
     maxWidth: 400,
@@ -33,15 +34,15 @@ function MediaCard(props) {
             Khoảng lặng
           </Typography>
           <Typography component="p" style={{textAlign: 'justify'}}>
-                     khi ta ngắm nhìn sao trên bầu trời, những ngôi sao xa lắc, xa lơ, xa đến nỗi 
-                     khi ánh sáng từ ngôi sao đó truyền tới mắt ta thì có lẽ nó đã tắt hàng tỉ năm về trước,
-                     vậy nên ngắm nhìn sao cũng như đang nhìn về quá khứ, tình cảm đôi khi người ta giấu kín đến mức
-                     khi người ta yêu quý nhận ra thì nó đã không còn nguyên vẹn như trước nữa...
+                      &nbsp; Khi ta ngắm nhìn sao trên bầu trời, những ngôi sao xa lắc, xa lơ, xa đến nỗi 
+                     khi ánh sáng từ ngôi sao đó truyền tới mắt ta thì có lẽ nó đã tắt hàng tỉ năm về trước.
+                     Vậy nên ngắm sao cũng như đang nhìn về quá khứ, tình cảm đôi khi người ta giấu kín đến mức
+                     khi người ta yêu quý nhận ra thì nó đã không còn nguyên vẹn như trước nữa. 
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+      <Button size="small" color="primary">
           Share
         </Button>      
       </CardActions>

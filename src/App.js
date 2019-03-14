@@ -14,8 +14,11 @@ class App extends Component {
       <div className="App">
      
         <Header/>           
-        <Aside/>
-        <Section/>
+        <div className="wrapper">
+          <Aside/>
+          <Section/>
+        </div>
+       
         <Footer/>
       </div>
     );
