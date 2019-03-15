@@ -80,7 +80,7 @@ class FullWidthTabs extends React.Component {
           <TabContainer dir={theme.direction}>
           {<NotificationsIcon/>} Địa chỉ: Gò Vấp, Hồ Chí Minh
           <br></br> {<PhoneIcon/>} Số điện thoại: 0378622863 
-          <br></br> {<MailIcon/>} Email: chanhpm.cs@gmail.com
+          <br></br> {<MailIcon/>} Email: phamminhchanh98@gmail.com
           </TabContainer>
         </SwipeableViews>
       </div>

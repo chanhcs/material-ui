@@ -45,10 +45,6 @@ function MenuAppBar(props) {
             <i class="fa fa-facebook-official" style={{ fontSize: '30px', color: 'white' }}></i>
           </a>
 
-          <a class="github" target="Blank" href="https://github.com/chanhcs" tabIndex="0" style={{position:'relative', left:'10px'}}>
-            <i class="fa fa-github" style={{ fontSize: '30px', color: 'white'}}></i>
-          </a>
-
         </Toolbar>
       </AppBar>
 

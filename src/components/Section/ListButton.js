@@ -82,9 +82,9 @@ class MenuListComposition extends React.Component {
                     <MenuList>
                       <MenuItem onClick={this.handleClose} ><a target="Blank" href={facebookUrl} tabIndex="0"  
             style={{textDecoration: 'none'}}> Facebook </a></MenuItem>
-              <MenuItem onClick={this.handleClose} ><a target="Blank" href={linkedinUrl} tabIndex="0"  
+              <MenuItem onClick={this.handleClose} ><a target="Blank" href={twitterUrl} tabIndex="0"  
             style={{textDecoration: 'none'}}> Twitter </a></MenuItem>
-            <MenuItem onClick={this.handleClose} ><a target="Blank" href={twitterUrl} tabIndex="0"  
+            <MenuItem onClick={this.handleClose} ><a target="Blank" href={linkedinUrl} tabIndex="0"  
             style={{textDecoration: 'none'}}> Linkedin </a></MenuItem>
                     
                     </MenuList>
