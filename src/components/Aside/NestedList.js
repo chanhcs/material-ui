@@ -7,7 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Collapse from '@material-ui/core/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-
+import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   root: {
@@ -36,29 +36,29 @@ class NestedList extends React.Component {
     return (
       <List>
         <ListItem button>
-         
+
           <ListItemText inset primary="Blog" />
         </ListItem>
-        
+
         <ListItem button onClick={this.handleClick}>
-          
+
           <ListItemText inset primary="Research" />
           {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
         <Collapse in={this.state.open} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
-            <ListItem button className={classes.nested}>
-            
-              <ListItemText inset primary="Face Dectection" />
-             
-             
+            <ListItem button className={classes.nested} component="a" target="Blank" href="https://face-detection-pmc.herokuapp.com" tabIndex="0">
 
-              <a target="Blank" href="https://face-detection-pmc.herokuapp.com" tabIndex="0"  
-            style={{textDecoration: 'none'}}> </a>      
-              
-           
-            
+
+              <ListItemText inset primary="Face Detection" />
             </ListItem>
+
+
+
+
+
+
+
           </List>
         </Collapse>
       </List>

@@ -63,7 +63,7 @@ class MenuListComposition extends React.Component {
                 <Paper >
                   <ClickAwayListener onClickAway={this.handleClose}>
                     <MenuList>
-                      <MenuItem onClick={this.handleClose} ><a target="Blank" href="https://face-detection-pmc.herokuapp.com" tabindex="0"  
+                      <MenuItem onClick={this.handleClose} ><a target="Blank" href="https://face-detection-pmc.herokuapp.com" tabIndex="0"  
             style={{textDecoration: 'none'}}> Face Detection </a></MenuItem>
                     
                     </MenuList>

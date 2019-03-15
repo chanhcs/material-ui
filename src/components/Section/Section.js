@@ -10,13 +10,15 @@ class Section extends React.Component {
     render() {
         return (
             <div className="section" >
-                <div style={{ position: 'relative', top: '20px', paddingLeft: '20px', paddingRight: '20px'}} >
+                <div className="paper" >
                     <PaperSheet />
                 </div>
                 
-                    <div style={{display:'flex', justifyContent:'center', position: 'relative', top: '60px'}} >
-                        <MediaCard/>
-                        <FullWidthTabs/>
+                    <div className="container"  >
+                      
+                            <MediaCard/> 
+                             <FullWidthTabs/>
+                     
                     </div>
                  
             </div>
