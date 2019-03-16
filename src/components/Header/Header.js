@@ -11,7 +11,7 @@ class Header extends React.Component {
             <div>
                 <MenuAppBar/>
                 <div className="header">
-                   <div style={{position:"relative", top:'110px'}}>Minh Chánh </div> 
+                   <div style={{position:"relative", top:'110px', }}>Minh Chánh </div> 
                 </div>
             </div>
         );

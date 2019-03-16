@@ -15,6 +15,7 @@ import ShareIcon from '@material-ui/icons/Share';
 const styles = theme => ({
   root: {
     display: 'flex',
+   
   },
   paper: {
     marginRight: theme.spacing.unit * 2,
@@ -45,7 +46,7 @@ class MenuListComposition extends React.Component {
 
     
     //URL from current page
-    const url = 'https://face-detection-pmc.herokuapp.com';
+    const url = 'https://minhchanhblog.000webhostapp.com';
     //URL patterns for Social media sites share functionalities
     const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
     const twitterUrl = `https://twitter.com/home?status=${url}`;
@@ -65,7 +66,7 @@ class MenuListComposition extends React.Component {
           >
            
            <IconButton aria-label="Share">
-            <ShareIcon />
+            <ShareIcon/>
           </IconButton>
 
 
@@ -79,7 +80,7 @@ class MenuListComposition extends React.Component {
               >
                 <Paper >
                   <ClickAwayListener onClickAway={this.handleClose}>
-                    <MenuList>
+                    <MenuList >
                       <MenuItem onClick={this.handleClose} ><a target="Blank" href={facebookUrl} tabIndex="0"  
             style={{textDecoration: 'none'}}> Facebook </a></MenuItem>
               <MenuItem onClick={this.handleClose} ><a target="Blank" href={twitterUrl} tabIndex="0"  

@@ -16,7 +16,7 @@ function PaperSheet(props) {
   const { classes } = props;
 
   return (
-    <div>
+    <div >
       <Paper className={classes.root} elevation={1}>
         <Typography variant="h5" component="h3">
             Chào mừng bạn đến với blog của tôi

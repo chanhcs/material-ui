@@ -8,6 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import ListButton from './ListButton';
+ 
 
 
 const styles = {
@@ -30,10 +31,10 @@ function MediaCard(props) {
           title="Contemplative Reptile"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: 'center' }}>
+          <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: 'center'}}>
             Khoảng lặng
           </Typography>
-          <Typography component="p" style={{ textAlign: 'justify' }}>
+          <Typography component="p" style={{ textAlign: 'justify'}}>
             &nbsp; Khi ta ngắm nhìn sao trên bầu trời, những ngôi sao xa lắc, xa lơ, xa đến nỗi
            khi ánh sáng từ ngôi sao đó truyền tới mắt ta thì có lẽ nó đã tắt hàng tỉ năm về trước.
            Vậy nên ngắm sao cũng như đang nhìn về quá khứ, tình cảm đôi khi người ta giấu kín đến mức

@@ -56,17 +56,24 @@ class FullWidthTabs extends React.Component {
             textColor="primary"
             variant="fullWidth"
           >
-            <Tab label="Informations" />
-            <Tab label="Skills" />
-            <Tab label="Contact" />
+            <Tab label="Informations"  style={{fontFamily: 'Oleo Script, Helvetica, sans-serif'}}/>
+            <Tab label="Skills"  style={{fontFamily: 'Oleo Script, Helvetica, sans-serif'}}/>
+            <Tab label="Contact"  style={{fontFamily: 'Oleo Script, Helvetica, sans-serif'}}/>
           </Tabs>
         </AppBar>
+
+
+
         <SwipeableViews
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
           index={this.state.value}
           onChangeIndex={this.handleChangeIndex}
-        >
-          <TabContainer dir={theme.direction}>Mình là Phạm Minh Chánh<br></br> 
+          
+        
+        > 
+
+ 
+          <TabContainer dir={theme.direction}  >Mình là Phạm Minh Chánh<br></br> 
            Sinh viên năm thứ 3 trường Đại học Công nghiệp TP.HCM
            <br></br>Chuyên ngành: Khoa học máy tính</TabContainer>
           <TabContainer dir={theme.direction}>
@@ -83,6 +90,8 @@ class FullWidthTabs extends React.Component {
           <br></br> {<MailIcon/>} Email: phamminhchanh98@gmail.com
           </TabContainer>
         </SwipeableViews>
+
+    
       </div>
     );
   }

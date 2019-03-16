@@ -15,9 +15,11 @@ const styles = theme => ({
     Width: '360px',
     height: '1500px',
     backgroundColor: theme.palette.background.paper,
+   
   },
   nested: {
     paddingLeft: theme.spacing.unit * 4,
+   
   },
 });
 
@@ -34,19 +36,19 @@ class NestedList extends React.Component {
     const { classes } = this.props;
 
     return (
-      <List>
-        <ListItem button>
+      <List >
+        <ListItem button> 
 
           <ListItemText inset primary="Blog" />
         </ListItem>
 
-        <ListItem button onClick={this.handleClick}>
+        <ListItem button onClick={this.handleClick} >
 
           <ListItemText inset primary="Research" />
           {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
-        <Collapse in={this.state.open} timeout="auto" unmountOnExit>
-          <List component="div" disablePadding>
+        <Collapse in={this.state.open} timeout="auto" unmountOnExit  >
+          <List component="div" disablePadding >
             <ListItem button className={classes.nested} component="a" target="Blank" href="https://face-detection-pmc.herokuapp.com" tabIndex="0">
 
 
