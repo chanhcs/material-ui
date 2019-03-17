@@ -9,7 +9,7 @@ class Aside extends React.Component {
     render() {
         return (
             <div className="aside" >
-               <div style={{position:'relative', right:'20px'}} >
+               <div className="list" style={{position:'relative', right:'20px'}} >
                   <NestedList/>
                </div>
 

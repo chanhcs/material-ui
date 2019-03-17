@@ -5,6 +5,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import ListMenu from './ListMenu';
 
 
 const styles = {
@@ -38,12 +39,9 @@ function MenuAppBar(props) {
 
           </Typography>
           
-
-          
+            <ListMenu/>    
          
-          <a class="fb" target="Blank" href="https://www.facebook.com/pmchanhpk" tabIndex="0">
-            <i class="fa fa-facebook-official" style={{ fontSize: '30px', color: 'white' }}></i>
-          </a>
+          
 
         </Toolbar>
       </AppBar>
